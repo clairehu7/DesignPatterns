@@ -1,2 +1,4 @@
 # DesignPatterns
-用 Objective-C 实现《大话设计模式》一书中的例子。
+iOS 版《大话设计模式》例子。
+
+
