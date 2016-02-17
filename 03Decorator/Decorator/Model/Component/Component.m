@@ -2,7 +2,7 @@
 //  Component.m
 //  Decorator
 //
-//  Created by 56QQ on 16/2/16.
+//  Created by HKY on 16/2/16.
 //  Copyright © 2016年 HKY. All rights reserved.
 //
 

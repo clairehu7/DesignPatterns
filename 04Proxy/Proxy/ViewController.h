@@ -1,15 +1,14 @@
 //
 //  ViewController.h
-//  Decorator
+//  Proxy
 //
-//  Created by HKY on 16/2/16.
+//  Created by 56QQ on 16/2/17.
 //  Copyright © 2016年 HKY. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 
 @interface ViewController : UIViewController
-
 
 @end
 
