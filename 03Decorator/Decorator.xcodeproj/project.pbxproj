@@ -13,6 +13,16 @@
 		31F051DC1C73776F00FCF725 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31F051DA1C73776F00FCF725 /* Main.storyboard */; };
 		31F051DE1C73776F00FCF725 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 31F051DD1C73776F00FCF725 /* Assets.xcassets */; };
 		31F051E11C73776F00FCF725 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 31F051DF1C73776F00FCF725 /* LaunchScreen.storyboard */; };
+		31F051EF1C737BA700FCF725 /* Component.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F051EE1C737BA700FCF725 /* Component.m */; };
+		31F051F21C737C1900FCF725 /* ConcreteComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F051F11C737C1900FCF725 /* ConcreteComponent.m */; };
+		31F051F91C737CCB00FCF725 /* Decorator.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F051F81C737CCB00FCF725 /* Decorator.m */; };
+		31F051FC1C737FB900FCF725 /* ConcreteDecoratorA.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F051FB1C737FB900FCF725 /* ConcreteDecoratorA.m */; };
+		31F051FF1C73803F00FCF725 /* ConcreteDecoratorB.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F051FE1C73803F00FCF725 /* ConcreteDecoratorB.m */; };
+		31F052021C74078100FCF725 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F052011C74078100FCF725 /* Person.m */; };
+		31F052051C74087E00FCF725 /* Finery.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F052041C74087E00FCF725 /* Finery.m */; };
+		31F052081C74092500FCF725 /* TShirts.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F052071C74092500FCF725 /* TShirts.m */; };
+		31F0520B1C740A6000FCF725 /* Sneakers.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F0520A1C740A6000FCF725 /* Sneakers.m */; };
+		31F0520E1C740AF600FCF725 /* BigTrouser.m in Sources */ = {isa = PBXBuildFile; fileRef = 31F0520D1C740AF600FCF725 /* BigTrouser.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,26 @@
 		31F051DD1C73776F00FCF725 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		31F051E01C73776F00FCF725 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		31F051E21C73776F00FCF725 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		31F051ED1C737BA700FCF725 /* Component.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Component.h; sourceTree = "<group>"; };
+		31F051EE1C737BA700FCF725 /* Component.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Component.m; sourceTree = "<group>"; };
+		31F051F01C737C1900FCF725 /* ConcreteComponent.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteComponent.h; sourceTree = "<group>"; };
+		31F051F11C737C1900FCF725 /* ConcreteComponent.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteComponent.m; sourceTree = "<group>"; };
+		31F051F71C737CCB00FCF725 /* Decorator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Decorator.h; sourceTree = "<group>"; };
+		31F051F81C737CCB00FCF725 /* Decorator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Decorator.m; sourceTree = "<group>"; };
+		31F051FA1C737FB900FCF725 /* ConcreteDecoratorA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteDecoratorA.h; sourceTree = "<group>"; };
+		31F051FB1C737FB900FCF725 /* ConcreteDecoratorA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteDecoratorA.m; sourceTree = "<group>"; };
+		31F051FD1C73803F00FCF725 /* ConcreteDecoratorB.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ConcreteDecoratorB.h; sourceTree = "<group>"; };
+		31F051FE1C73803F00FCF725 /* ConcreteDecoratorB.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ConcreteDecoratorB.m; sourceTree = "<group>"; };
+		31F052001C74078100FCF725 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		31F052011C74078100FCF725 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		31F052031C74087E00FCF725 /* Finery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Finery.h; sourceTree = "<group>"; };
+		31F052041C74087E00FCF725 /* Finery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Finery.m; sourceTree = "<group>"; };
+		31F052061C74092500FCF725 /* TShirts.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TShirts.h; sourceTree = "<group>"; };
+		31F052071C74092500FCF725 /* TShirts.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TShirts.m; sourceTree = "<group>"; };
+		31F052091C740A6000FCF725 /* Sneakers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Sneakers.h; sourceTree = "<group>"; };
+		31F0520A1C740A6000FCF725 /* Sneakers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Sneakers.m; sourceTree = "<group>"; };
+		31F0520C1C740AF600FCF725 /* BigTrouser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BigTrouser.h; sourceTree = "<group>"; };
+		31F0520D1C740AF600FCF725 /* BigTrouser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BigTrouser.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +88,9 @@
 		31F051D01C73776F00FCF725 /* Decorator */ = {
 			isa = PBXGroup;
 			children = (
-				31F051D41C73776F00FCF725 /* AppDelegate.h */,
-				31F051D51C73776F00FCF725 /* AppDelegate.m */,
 				31F051D71C73776F00FCF725 /* ViewController.h */,
 				31F051D81C73776F00FCF725 /* ViewController.m */,
-				31F051DA1C73776F00FCF725 /* Main.storyboard */,
-				31F051DD1C73776F00FCF725 /* Assets.xcassets */,
-				31F051DF1C73776F00FCF725 /* LaunchScreen.storyboard */,
-				31F051E21C73776F00FCF725 /* Info.plist */,
+				31F051EB1C737BA600FCF725 /* Model */,
 				31F051D11C73776F00FCF725 /* Supporting Files */,
 			);
 			path = Decorator;
@@ -74,9 +99,58 @@
 		31F051D11C73776F00FCF725 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				31F051D41C73776F00FCF725 /* AppDelegate.h */,
+				31F051D51C73776F00FCF725 /* AppDelegate.m */,
+				31F051DA1C73776F00FCF725 /* Main.storyboard */,
+				31F051DD1C73776F00FCF725 /* Assets.xcassets */,
+				31F051DF1C73776F00FCF725 /* LaunchScreen.storyboard */,
+				31F051E21C73776F00FCF725 /* Info.plist */,
 				31F051D21C73776F00FCF725 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		31F051EB1C737BA600FCF725 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				31F051EC1C737BA700FCF725 /* Component */,
+				31F051F61C737CCB00FCF725 /* Decorator */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		31F051EC1C737BA700FCF725 /* Component */ = {
+			isa = PBXGroup;
+			children = (
+				31F051ED1C737BA700FCF725 /* Component.h */,
+				31F051EE1C737BA700FCF725 /* Component.m */,
+				31F051F01C737C1900FCF725 /* ConcreteComponent.h */,
+				31F051F11C737C1900FCF725 /* ConcreteComponent.m */,
+				31F052001C74078100FCF725 /* Person.h */,
+				31F052011C74078100FCF725 /* Person.m */,
+			);
+			path = Component;
+			sourceTree = "<group>";
+		};
+		31F051F61C737CCB00FCF725 /* Decorator */ = {
+			isa = PBXGroup;
+			children = (
+				31F051F71C737CCB00FCF725 /* Decorator.h */,
+				31F051F81C737CCB00FCF725 /* Decorator.m */,
+				31F051FA1C737FB900FCF725 /* ConcreteDecoratorA.h */,
+				31F051FB1C737FB900FCF725 /* ConcreteDecoratorA.m */,
+				31F051FD1C73803F00FCF725 /* ConcreteDecoratorB.h */,
+				31F051FE1C73803F00FCF725 /* ConcreteDecoratorB.m */,
+				31F052031C74087E00FCF725 /* Finery.h */,
+				31F052041C74087E00FCF725 /* Finery.m */,
+				31F052091C740A6000FCF725 /* Sneakers.h */,
+				31F0520A1C740A6000FCF725 /* Sneakers.m */,
+				31F052061C74092500FCF725 /* TShirts.h */,
+				31F052071C74092500FCF725 /* TShirts.m */,
+				31F0520C1C740AF600FCF725 /* BigTrouser.h */,
+				31F0520D1C740AF600FCF725 /* BigTrouser.m */,
+			);
+			path = Decorator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -150,8 +224,18 @@
 			buildActionMask = 2147483647;
 			files = (
 				31F051D91C73776F00FCF725 /* ViewController.m in Sources */,
+				31F0520B1C740A6000FCF725 /* Sneakers.m in Sources */,
+				31F051EF1C737BA700FCF725 /* Component.m in Sources */,
 				31F051D61C73776F00FCF725 /* AppDelegate.m in Sources */,
+				31F051FC1C737FB900FCF725 /* ConcreteDecoratorA.m in Sources */,
+				31F051F21C737C1900FCF725 /* ConcreteComponent.m in Sources */,
 				31F051D31C73776F00FCF725 /* main.m in Sources */,
+				31F052081C74092500FCF725 /* TShirts.m in Sources */,
+				31F052021C74078100FCF725 /* Person.m in Sources */,
+				31F0520E1C740AF600FCF725 /* BigTrouser.m in Sources */,
+				31F051F91C737CCB00FCF725 /* Decorator.m in Sources */,
+				31F052051C74087E00FCF725 /* Finery.m in Sources */,
+				31F051FF1C73803F00FCF725 /* ConcreteDecoratorB.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,6 +382,7 @@
 				31F051E71C73776F00FCF725 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
