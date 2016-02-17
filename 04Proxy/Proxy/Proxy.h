@@ -9,6 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "SchoolGirl.h"
 
+//协议列出 代理人能完成哪些事情
 @protocol IGiveGift <NSObject>
 
 @required
@@ -20,6 +21,7 @@
 
 @end
 
+//代理人小强认识小红 （#import "SchoolGirl.h"）
 @interface Proxy : NSObject
 
 @property (nonatomic,strong) id<IGiveGift> delegate;

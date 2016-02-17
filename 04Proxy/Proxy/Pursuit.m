@@ -10,6 +10,8 @@
 
 @implementation Pursuit 
 
+//被代理人小明虽然不知道 name，但是知道要做什么事情。而 name 由代理人传入
+
 #pragma mark - IGiveGift
 
 - (void)giveDollsTo:(NSString *)name {

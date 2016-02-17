@@ -28,14 +28,14 @@
 }
 
 - (IBAction)startBtnTUI:(UIButton *)sender {
-    Pursuit *pursuit = [[Pursuit alloc]init];
-    Proxy *proxy = [[Proxy alloc]init];
-    proxy.delegate = pursuit;
+    Pursuit *ming = [[Pursuit alloc]init];
+    Proxy *qiang = [[Proxy alloc]init];
+    qiang.delegate = ming;//代理人qiang 的委托是 ming
     
-    SchoolGirl *mm = [[SchoolGirl alloc]init];
-    mm.name = @"jiaojiao";
+    SchoolGirl *hong = [[SchoolGirl alloc]init];
+    hong.name = @"小红";
     
-    [proxy doProxyWithGirl:mm];
+    [qiang doProxyWithGirl:hong];
 }
 
 @end
