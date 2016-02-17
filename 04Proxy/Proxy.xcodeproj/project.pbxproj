@@ -13,6 +13,8 @@
 		315600751C74AD9400FE44D9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315600731C74AD9400FE44D9 /* Main.storyboard */; };
 		315600771C74AD9400FE44D9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315600761C74AD9400FE44D9 /* Assets.xcassets */; };
 		3156007A1C74AD9400FE44D9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315600781C74AD9400FE44D9 /* LaunchScreen.storyboard */; };
+		315600831C74BEB500FE44D9 /* Pursuit.m in Sources */ = {isa = PBXBuildFile; fileRef = 315600821C74BEB500FE44D9 /* Pursuit.m */; };
+		315600861C74C30500FE44D9 /* Proxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 315600851C74C30500FE44D9 /* Proxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		315600761C74AD9400FE44D9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		315600791C74AD9400FE44D9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3156007B1C74AD9400FE44D9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		315600811C74BEB500FE44D9 /* Pursuit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pursuit.h; sourceTree = "<group>"; };
+		315600821C74BEB500FE44D9 /* Pursuit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pursuit.m; sourceTree = "<group>"; };
+		315600841C74C30500FE44D9 /* Proxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Proxy.h; sourceTree = "<group>"; };
+		315600851C74C30500FE44D9 /* Proxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Proxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +64,10 @@
 		315600691C74AD9400FE44D9 /* Proxy */ = {
 			isa = PBXGroup;
 			children = (
+				315600811C74BEB500FE44D9 /* Pursuit.h */,
+				315600821C74BEB500FE44D9 /* Pursuit.m */,
+				315600841C74C30500FE44D9 /* Proxy.h */,
+				315600851C74C30500FE44D9 /* Proxy.m */,
 				3156006D1C74AD9400FE44D9 /* AppDelegate.h */,
 				3156006E1C74AD9400FE44D9 /* AppDelegate.m */,
 				315600701C74AD9400FE44D9 /* ViewController.h */,
@@ -149,6 +159,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				315600831C74BEB500FE44D9 /* Pursuit.m in Sources */,
+				315600861C74C30500FE44D9 /* Proxy.m in Sources */,
 				315600721C74AD9400FE44D9 /* ViewController.m in Sources */,
 				3156006F1C74AD9400FE44D9 /* AppDelegate.m in Sources */,
 				3156006C1C74AD9400FE44D9 /* main.m in Sources */,
@@ -298,6 +310,7 @@
 				315600801C74AD9400FE44D9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

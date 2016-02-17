@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "Pursuit.h"
+#import "Proxy.h"
 
 @interface ViewController ()
 
@@ -22,6 +24,13 @@
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)startBtnTUI:(UIButton *)sender {
+    Pursuit *pursuit = [[Pursuit alloc]init];
+    Proxy *proxy = [[Proxy alloc]init];
+    proxy.delegate = pursuit;
+    [proxy doProxy];
 }
 
 @end
