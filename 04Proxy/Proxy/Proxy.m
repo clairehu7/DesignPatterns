@@ -10,15 +10,15 @@
 
 @implementation Proxy
 
-- (void)doProxy {
+- (void)doProxyWithGirl:(SchoolGirl *)girl {
     
-    [_delegate giveDolls];
+    [_delegate giveDollsTo:girl.name];
     
-    if ([_delegate respondsToSelector:@selector(giveFlowers)]) {
-        [_delegate giveFlowers];
+    if ([_delegate respondsToSelector:@selector(giveFlowersTo:)]) {
+        [_delegate giveFlowersTo:girl.name];
     }
-    if ([_delegate respondsToSelector:@selector(giveChocolate)]) {
-        [_delegate giveChocolate];
+    if ([_delegate respondsToSelector:@selector(giveChocolateTo:)]) {
+        [_delegate giveChocolateTo:girl.name];
     }
 }
 

@@ -9,6 +9,7 @@
 #import "ViewController.h"
 #import "Pursuit.h"
 #import "Proxy.h"
+#import "SchoolGirl.h"
 
 @interface ViewController ()
 
@@ -30,7 +31,11 @@
     Pursuit *pursuit = [[Pursuit alloc]init];
     Proxy *proxy = [[Proxy alloc]init];
     proxy.delegate = pursuit;
-    [proxy doProxy];
+    
+    SchoolGirl *mm = [[SchoolGirl alloc]init];
+    mm.name = @"jiaojiao";
+    
+    [proxy doProxyWithGirl:mm];
 }
 
 @end

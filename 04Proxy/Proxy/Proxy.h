@@ -7,15 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "SchoolGirl.h"
 
 @protocol IGiveGift <NSObject>
 
 @required
-- (void)giveDolls;
+- (void)giveDollsTo:(NSString *)name;
 
 @optional
-- (void)giveFlowers;
-- (void)giveChocolate;
+- (void)giveFlowersTo:(NSString *)name;
+- (void)giveChocolateTo:(NSString *)name;
 
 @end
 
@@ -23,6 +24,6 @@
 
 @property (nonatomic,strong) id<IGiveGift> delegate;
 
-- (void)doProxy;
+- (void)doProxyWithGirl:(SchoolGirl *)girl ;
 
 @end

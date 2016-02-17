@@ -12,16 +12,16 @@
 
 #pragma mark - IGiveGift
 
-- (void)giveDolls {
-    NSLog(@"送娃娃");
+- (void)giveDollsTo:(NSString *)name {
+    NSLog(@"送娃娃给 %@",name);
 }
 
-- (void)giveFlowers {
-    NSLog(@"送花");
+- (void)giveFlowersTo:(NSString *)name {
+    NSLog(@"送花给 %@",name);
 }
 
-- (void)giveChocolate {
-    NSLog(@"送巧克力");
+- (void)giveChocolateTo:(NSString *)name {
+    NSLog(@"送巧克力给 %@",name);
 }
 
 @end
