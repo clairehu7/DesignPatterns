@@ -15,6 +15,7 @@
 		3117AC961BDB1ACB00AE81B0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3117AC941BDB1ACB00AE81B0 /* LaunchScreen.storyboard */; };
 		3117ACBB1BDB4D0900AE81B0 /* Operation.m in Sources */ = {isa = PBXBuildFile; fileRef = 3117ACBA1BDB4D0900AE81B0 /* Operation.m */; };
 		3129AE121C75A82600E24374 /* IFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3129AE111C75A82600E24374 /* IFactory.m */; };
+		3129AE161C75B03900E24374 /* LeiFeng.m in Sources */ = {isa = PBXBuildFile; fileRef = 3129AE151C75B03900E24374 /* LeiFeng.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		3117ACBA1BDB4D0900AE81B0 /* Operation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Operation.m; sourceTree = "<group>"; };
 		3129AE101C75A82600E24374 /* IFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IFactory.h; sourceTree = "<group>"; };
 		3129AE111C75A82600E24374 /* IFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IFactory.m; sourceTree = "<group>"; };
+		3129AE141C75B03900E24374 /* LeiFeng.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeiFeng.h; sourceTree = "<group>"; };
+		3129AE151C75B03900E24374 /* LeiFeng.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeiFeng.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +102,7 @@
 		3117AC851BDB1ACB00AE81B0 /* FactoryMethod */ = {
 			isa = PBXGroup;
 			children = (
+				3129AE131C75AF0900E24374 /* LeiFeng */,
 				3117AC8C1BDB1ACB00AE81B0 /* ViewController.h */,
 				3117AC8D1BDB1ACB00AE81B0 /* ViewController.m */,
 				3117ACB91BDB4D0900AE81B0 /* Operation.h */,
@@ -122,6 +126,15 @@
 				3117AC871BDB1ACB00AE81B0 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3129AE131C75AF0900E24374 /* LeiFeng */ = {
+			isa = PBXGroup;
+			children = (
+				3129AE141C75B03900E24374 /* LeiFeng.h */,
+				3129AE151C75B03900E24374 /* LeiFeng.m */,
+			);
+			path = LeiFeng;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -254,6 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3129AE161C75B03900E24374 /* LeiFeng.m in Sources */,
 				3117AC8E1BDB1ACB00AE81B0 /* ViewController.m in Sources */,
 				3117AC8B1BDB1ACB00AE81B0 /* AppDelegate.m in Sources */,
 				3129AE121C75A82600E24374 /* IFactory.m in Sources */,
