@@ -2,8 +2,8 @@
 //  ViewController.h
 //  FactoryMethod
 //
-//  Created by 56QQ on 16/2/18.
-//  Copyright © 2016年 HKY. All rights reserved.
+//  Created by HKY on 15/10/24.
+//  Copyright © 2015年 test. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
