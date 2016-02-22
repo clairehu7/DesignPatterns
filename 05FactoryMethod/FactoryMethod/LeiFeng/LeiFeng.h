@@ -8,6 +8,11 @@
 
 #import <Foundation/Foundation.h>
 
+typedef NS_ENUM(NSUInteger,LeiFengType) {
+    LeiFengType_Undergraduate,
+    LeiFengType_Volunteer
+};
+
 @interface LeiFeng : NSObject
 
 - (void)sweep;

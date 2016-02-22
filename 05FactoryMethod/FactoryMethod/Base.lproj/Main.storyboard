@@ -87,7 +87,7 @@
                                     <constraint firstAttribute="height" constant="30" id="hOG-E2-1sa"/>
                                     <constraint firstAttribute="width" constant="86" id="q85-m1-3cr"/>
                                 </constraints>
-                                <state key="normal" title="test"/>
+                                <state key="normal" title="雷锋test"/>
                                 <connections>
                                     <action selector="testBtnTUI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="UwX-TN-tiS"/>
                                 </connections>
