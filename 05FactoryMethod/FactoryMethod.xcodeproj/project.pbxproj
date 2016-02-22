@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3116D3681C7AD87A003AF5D3 /* Undergraduate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116D3671C7AD87A003AF5D3 /* Undergraduate.m */; };
+		3116D36B1C7AD8FC003AF5D3 /* Volunteer.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116D36A1C7AD8FC003AF5D3 /* Volunteer.m */; };
+		3116D36E1C7AD917003AF5D3 /* SimpleFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116D36D1C7AD917003AF5D3 /* SimpleFactory.m */; };
+		3116D3711C7ADE73003AF5D3 /* LeiFengFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 3116D3701C7ADE73003AF5D3 /* LeiFengFactory.m */; };
 		3117AC881BDB1ACB00AE81B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3117AC871BDB1ACB00AE81B0 /* main.m */; };
 		3117AC8B1BDB1ACB00AE81B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3117AC8A1BDB1ACB00AE81B0 /* AppDelegate.m */; };
 		3117AC8E1BDB1ACB00AE81B0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3117AC8D1BDB1ACB00AE81B0 /* ViewController.m */; };
@@ -36,6 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3116D3661C7AD87A003AF5D3 /* Undergraduate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Undergraduate.h; sourceTree = "<group>"; };
+		3116D3671C7AD87A003AF5D3 /* Undergraduate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Undergraduate.m; sourceTree = "<group>"; };
+		3116D3691C7AD8FC003AF5D3 /* Volunteer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Volunteer.h; sourceTree = "<group>"; };
+		3116D36A1C7AD8FC003AF5D3 /* Volunteer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Volunteer.m; sourceTree = "<group>"; };
+		3116D36C1C7AD917003AF5D3 /* SimpleFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimpleFactory.h; sourceTree = "<group>"; };
+		3116D36D1C7AD917003AF5D3 /* SimpleFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimpleFactory.m; sourceTree = "<group>"; };
+		3116D36F1C7ADE73003AF5D3 /* LeiFengFactory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeiFengFactory.h; sourceTree = "<group>"; };
+		3116D3701C7ADE73003AF5D3 /* LeiFengFactory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeiFengFactory.m; sourceTree = "<group>"; };
 		3117AC831BDB1ACB00AE81B0 /* FactoryMethod.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FactoryMethod.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3117AC871BDB1ACB00AE81B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3117AC891BDB1ACB00AE81B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -133,6 +145,14 @@
 			children = (
 				3129AE141C75B03900E24374 /* LeiFeng.h */,
 				3129AE151C75B03900E24374 /* LeiFeng.m */,
+				3116D3661C7AD87A003AF5D3 /* Undergraduate.h */,
+				3116D3671C7AD87A003AF5D3 /* Undergraduate.m */,
+				3116D3691C7AD8FC003AF5D3 /* Volunteer.h */,
+				3116D36A1C7AD8FC003AF5D3 /* Volunteer.m */,
+				3116D36C1C7AD917003AF5D3 /* SimpleFactory.h */,
+				3116D36D1C7AD917003AF5D3 /* SimpleFactory.m */,
+				3116D36F1C7ADE73003AF5D3 /* LeiFengFactory.h */,
+				3116D3701C7ADE73003AF5D3 /* LeiFengFactory.m */,
 			);
 			path = LeiFeng;
 			sourceTree = "<group>";
@@ -268,10 +288,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				3129AE161C75B03900E24374 /* LeiFeng.m in Sources */,
+				3116D3711C7ADE73003AF5D3 /* LeiFengFactory.m in Sources */,
 				3117AC8E1BDB1ACB00AE81B0 /* ViewController.m in Sources */,
+				3116D36E1C7AD917003AF5D3 /* SimpleFactory.m in Sources */,
+				3116D36B1C7AD8FC003AF5D3 /* Volunteer.m in Sources */,
 				3117AC8B1BDB1ACB00AE81B0 /* AppDelegate.m in Sources */,
 				3129AE121C75A82600E24374 /* IFactory.m in Sources */,
 				3117AC881BDB1ACB00AE81B0 /* main.m in Sources */,
+				3116D3681C7AD87A003AF5D3 /* Undergraduate.m in Sources */,
 				3117ACBB1BDB4D0900AE81B0 /* Operation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
