@@ -11,26 +11,35 @@
 
 @implementation Resume
 
-- (void)copySelfWithResume:(Resume *)resume {
-    resume.name = [self.name mutableCopy];
-    resume.age = [self.age copy];
-    resume.sex = [self.sex copy];
+- (instancetype)init {
+    self = [super init];
+    if (self) {
+        
+    }
+    return self;
 }
 
 #pragma mark - NSCopying
 
 - (id)copyWithZone:(NSZone *)zone {
-    Resume *resume = [[self class] allocWithZone:zone];
-    [self copySelfWithResume:resume];
-    return resume;
+    
+    Resume *resumeCopy = [[self class] allocWithZone:zone];
+    resumeCopy.name = [self.name copy];
+    resumeCopy.age = [self.age copy];
+    resumeCopy.sex = [self.sex copy];
+    return resumeCopy;
 }
 
 #pragma mark - NSMutableCopying
 
 - (id)mutableCopyWithZone:(NSZone *)zone {
-    Resume *resume = [[self class] allocWithZone:zone];
-    [self copySelfWithResume:resume];
-    return resume;
+    Resume *resumeCopy = [[self class] allocWithZone:zone];
+    resumeCopy.name = [self.name mutableCopy];
+    resumeCopy.age = [self.age mutableCopy];
+    resumeCopy.sex = [self.sex mutableCopy];
+    resumeCopy.delegate = self.delegate;
+    return resumeCopy;
 }
+
 
 @end

@@ -22,14 +22,13 @@
 
 - (IBAction)testBtnTUI:(UIButton *)sender {
     Resume *resumeA = [[Resume alloc]init];
-    resumeA.name = @"A".mutableCopy;
+    resumeA.name = @"A";
     resumeA.age = @"43";
     resumeA.sex = @"男";
     
-    Resume *resumeB = [[Resume alloc]init];
-    resumeB = [resumeA copy];
-    resumeB.name = @"B".mutableCopy;
 
+    Resume *resumeB = [resumeA copy];
+    
     NSLog(@"\n姓名:%@\n性别:%@\n年龄:%@",resumeB.name,resumeB.age,resumeB.sex);
 }
 
