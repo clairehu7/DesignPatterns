@@ -8,7 +8,8 @@
 
 #import "PersonView.h"
 
-@implementation PersonView 
+@implementation PersonView
+
 - (instancetype)initWithFrame:(CGRect)frame {
     self = [super initWithFrame:frame];
     if (self) {
@@ -17,25 +18,14 @@
     return self;
 }
 
-#pragma mark - Builder Methods
-
-- (void)buildHead {
-    headRadius = 20;
-}
-
-- (void)buildBody {
-    bodyWidthSale = 0.25;
-    bodyHeightSale = 0.4;
-}
-
 #pragma mark - DrawRect
 
 - (void)drawRect:(CGRect)rect {
     UIColor *color = [UIColor lightGrayColor];
     [color set];//设置线条颜色
     
-    CGFloat bodyWidth = self.frame.size.width * bodyWidthSale;
-    CGFloat bodyHeight = self.frame.size.height * bodyHeightSale;
+    CGFloat bodyWidth = self.frame.size.width * _bodyWidthSale;
+    CGFloat bodyHeight = self.frame.size.height * _bodyHeightSale;
     
     CGFloat lineWidth = 5;
     CGFloat topSpace = 20;
@@ -44,12 +34,12 @@
     CGFloat legDistance = 20;
 
     //头
-    CGPoint headCenter = CGPointMake(self.frame.size.width / 2, topSpace + headRadius);
+    CGPoint headCenter = CGPointMake(self.frame.size.width / 2, topSpace + _headRadius);
     
-    UIBezierPath *headPath = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(self.frame.size.width / 2 - headRadius, topSpace, 2 * headRadius, 2 * headRadius)];
+    UIBezierPath *headPath = [UIBezierPath bezierPathWithOvalInRect:CGRectMake(self.frame.size.width / 2 - _headRadius, topSpace, 2 * _headRadius, 2 * _headRadius)];
     headPath.lineWidth = lineWidth;
     [headPath addArcWithCenter:headCenter
-                    radius:headRadius
+                    radius:_headRadius
                 startAngle:0
                   endAngle:M_PI*1
                  clockwise:YES];
@@ -59,11 +49,11 @@
     //脖子
     UIBezierPath *neckPath = [UIBezierPath bezierPath];
     neckPath.lineWidth = lineWidth;
-    [neckPath moveToPoint:CGPointMake(self.frame.size.width / 2, topSpace + 2 * headRadius)];
-    [neckPath addLineToPoint:CGPointMake(self.frame.size.width / 2, topSpace + 2 * headRadius + 10)];
+    [neckPath moveToPoint:CGPointMake(self.frame.size.width / 2, topSpace + 2 * _headRadius)];
+    [neckPath addLineToPoint:CGPointMake(self.frame.size.width / 2, topSpace + 2 *_headRadius + 10)];
     [neckPath stroke];
     
-    CGFloat bodyY = topSpace + 2 * headRadius + 10;
+    CGFloat bodyY = topSpace + 2 *_headRadius + 10;
     //身体
     UIBezierPath *bodyPath=[UIBezierPath bezierPathWithOvalInRect:CGRectMake(self.frame.size.width / 2 - bodyWidth / 2, bodyY, bodyWidth, bodyHeight)];
     bodyPath.lineWidth = lineWidth;

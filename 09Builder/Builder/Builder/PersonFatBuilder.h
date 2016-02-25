@@ -1,13 +1,13 @@
 //
-//  ThinPersonView.h
+//  PersonFatBuilder.h
 //  Builder
 //
 //  Created by HKY on 16/2/25.
 //  Copyright © 2016年 HKY. All rights reserved.
 //
 
-#import "PersonView.h"
+#import "PersonBuilder.h"
 
-@interface ThinPersonView : PersonView
+@interface PersonFatBuilder : PersonBuilder
 
 @end

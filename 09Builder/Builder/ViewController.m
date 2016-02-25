@@ -7,12 +7,11 @@
 //
 
 #import "ViewController.h"
-#import "ThinPersonView.h"
-#import "FatPersonView.h"
+#import "PersonThinBuilder.h"
+#import "PersonFatBuilder.h"
 #import "PersonDirector.h"
 
 @interface ViewController ()
-@property (strong, nonatomic) PersonView *personView;
 
 @end
 
@@ -33,22 +32,10 @@
 #pragma mark - Btn Methods
 
 - (IBAction)testTUI:(UIButton *)sender {
-    [self.view addSubview:self.personView];
-    
-    CGFloat personWidth = 200;
-    CGFloat personHeight = 300;
-    [self.personView setFrame:CGRectMake(self.view.center.x - personWidth / 2, 100, personWidth, personHeight)];
-//    [self.personView setNeedsDisplay];//调试 drawRect: 方法时取消注释
-}
-
-#pragma mark - Setters & Getters
-
-- (PersonView *)personView {
-    if (!_personView) {
-//        _personView = [PersonDirector creatPerson:[[ThinPersonView alloc]init]];
-        _personView = [PersonDirector creatPerson:[[FatPersonView alloc]init]];
-    }
-    return _personView;
+    PersonBuilder *builder = [[PersonThinBuilder alloc]init];
+    PersonView *personView = [PersonDirector creatPerson:builder];
+    personView.center = self.view.center;
+    [self.view addSubview:personView];
 }
 
 @end

@@ -7,10 +7,10 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "PersonView.h"
+#import "PersonBuilder.h"
 
 @interface PersonDirector : NSObject
 
-+ (PersonView *)creatPerson:(PersonView *)view;
++ (PersonView *)creatPerson:(PersonBuilder *)builder;
 
 @end

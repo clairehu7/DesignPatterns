@@ -10,11 +10,10 @@
 
 @implementation PersonDirector
 
-+ (PersonView *)creatPerson:(PersonView *)view {
-    PersonView *personView = view;
-    [personView buildHead];
-    [personView buildBody];
-    [personView setNeedsDisplay];
++ (PersonView *)creatPerson:(PersonBuilder *)builder {
+
+    PersonView *personView = [builder loadPersonView];
+//    [personView setNeedsDisplay];
     return personView;
 }
 

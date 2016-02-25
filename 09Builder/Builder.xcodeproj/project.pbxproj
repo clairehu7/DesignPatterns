@@ -13,10 +13,11 @@
 		315686801C7D99A00081A509 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3156867E1C7D99A00081A509 /* Main.storyboard */; };
 		315686821C7D99A00081A509 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 315686811C7D99A00081A509 /* Assets.xcassets */; };
 		315686851C7D99A00081A509 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 315686831C7D99A00081A509 /* LaunchScreen.storyboard */; };
-		3156868E1C7D9E760081A509 /* PersonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 3156868D1C7D9E760081A509 /* PersonView.m */; };
-		315686911C7E92420081A509 /* PersonDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 315686901C7E92420081A509 /* PersonDirector.m */; };
-		315686941C7E942F0081A509 /* ThinPersonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 315686931C7E942F0081A509 /* ThinPersonView.m */; };
-		315686971C7E95FB0081A509 /* FatPersonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 315686961C7E95FB0081A509 /* FatPersonView.m */; };
+		315686B11C7EA4AB0081A509 /* PersonBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 315686A61C7EA4AB0081A509 /* PersonBuilder.m */; };
+		315686B21C7EA4AB0081A509 /* PersonFatBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 315686A81C7EA4AB0081A509 /* PersonFatBuilder.m */; };
+		315686B31C7EA4AB0081A509 /* PersonThinBuilder.m in Sources */ = {isa = PBXBuildFile; fileRef = 315686AA1C7EA4AB0081A509 /* PersonThinBuilder.m */; };
+		315686B41C7EA4AB0081A509 /* PersonDirector.m in Sources */ = {isa = PBXBuildFile; fileRef = 315686AD1C7EA4AB0081A509 /* PersonDirector.m */; };
+		315686B51C7EA4AB0081A509 /* PersonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 315686B01C7EA4AB0081A509 /* PersonView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,14 +31,16 @@
 		315686811C7D99A00081A509 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		315686841C7D99A00081A509 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		315686861C7D99A00081A509 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3156868C1C7D9E760081A509 /* PersonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonView.h; sourceTree = "<group>"; };
-		3156868D1C7D9E760081A509 /* PersonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonView.m; sourceTree = "<group>"; };
-		3156868F1C7E92420081A509 /* PersonDirector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDirector.h; sourceTree = "<group>"; };
-		315686901C7E92420081A509 /* PersonDirector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDirector.m; sourceTree = "<group>"; };
-		315686921C7E942F0081A509 /* ThinPersonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThinPersonView.h; sourceTree = "<group>"; };
-		315686931C7E942F0081A509 /* ThinPersonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThinPersonView.m; sourceTree = "<group>"; };
-		315686951C7E95FB0081A509 /* FatPersonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FatPersonView.h; sourceTree = "<group>"; };
-		315686961C7E95FB0081A509 /* FatPersonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FatPersonView.m; sourceTree = "<group>"; };
+		315686A51C7EA4AB0081A509 /* PersonBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonBuilder.h; sourceTree = "<group>"; };
+		315686A61C7EA4AB0081A509 /* PersonBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonBuilder.m; sourceTree = "<group>"; };
+		315686A71C7EA4AB0081A509 /* PersonFatBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonFatBuilder.h; sourceTree = "<group>"; };
+		315686A81C7EA4AB0081A509 /* PersonFatBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonFatBuilder.m; sourceTree = "<group>"; };
+		315686A91C7EA4AB0081A509 /* PersonThinBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonThinBuilder.h; sourceTree = "<group>"; };
+		315686AA1C7EA4AB0081A509 /* PersonThinBuilder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonThinBuilder.m; sourceTree = "<group>"; };
+		315686AC1C7EA4AB0081A509 /* PersonDirector.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonDirector.h; sourceTree = "<group>"; };
+		315686AD1C7EA4AB0081A509 /* PersonDirector.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonDirector.m; sourceTree = "<group>"; };
+		315686AF1C7EA4AB0081A509 /* PersonView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonView.h; sourceTree = "<group>"; };
+		315686B01C7EA4AB0081A509 /* PersonView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -70,14 +73,9 @@
 		315686741C7D99A00081A509 /* Builder */ = {
 			isa = PBXGroup;
 			children = (
-				3156868C1C7D9E760081A509 /* PersonView.h */,
-				3156868D1C7D9E760081A509 /* PersonView.m */,
-				315686921C7E942F0081A509 /* ThinPersonView.h */,
-				315686931C7E942F0081A509 /* ThinPersonView.m */,
-				315686951C7E95FB0081A509 /* FatPersonView.h */,
-				315686961C7E95FB0081A509 /* FatPersonView.m */,
-				3156868F1C7E92420081A509 /* PersonDirector.h */,
-				315686901C7E92420081A509 /* PersonDirector.m */,
+				315686A41C7EA4AB0081A509 /* Builder */,
+				315686AB1C7EA4AB0081A509 /* Director */,
+				315686AE1C7EA4AB0081A509 /* Product */,
 				3156867B1C7D99A00081A509 /* ViewController.h */,
 				3156867C1C7D99A00081A509 /* ViewController.m */,
 				315686751C7D99A00081A509 /* Supporting Files */,
@@ -97,6 +95,37 @@
 				315686761C7D99A00081A509 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		315686A41C7EA4AB0081A509 /* Builder */ = {
+			isa = PBXGroup;
+			children = (
+				315686A51C7EA4AB0081A509 /* PersonBuilder.h */,
+				315686A61C7EA4AB0081A509 /* PersonBuilder.m */,
+				315686A71C7EA4AB0081A509 /* PersonFatBuilder.h */,
+				315686A81C7EA4AB0081A509 /* PersonFatBuilder.m */,
+				315686A91C7EA4AB0081A509 /* PersonThinBuilder.h */,
+				315686AA1C7EA4AB0081A509 /* PersonThinBuilder.m */,
+			);
+			path = Builder;
+			sourceTree = "<group>";
+		};
+		315686AB1C7EA4AB0081A509 /* Director */ = {
+			isa = PBXGroup;
+			children = (
+				315686AC1C7EA4AB0081A509 /* PersonDirector.h */,
+				315686AD1C7EA4AB0081A509 /* PersonDirector.m */,
+			);
+			path = Director;
+			sourceTree = "<group>";
+		};
+		315686AE1C7EA4AB0081A509 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				315686AF1C7EA4AB0081A509 /* PersonView.h */,
+				315686B01C7EA4AB0081A509 /* PersonView.m */,
+			);
+			path = Product;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,12 +198,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				315686B41C7EA4AB0081A509 /* PersonDirector.m in Sources */,
+				315686B51C7EA4AB0081A509 /* PersonView.m in Sources */,
+				315686B11C7EA4AB0081A509 /* PersonBuilder.m in Sources */,
 				3156867D1C7D99A00081A509 /* ViewController.m in Sources */,
-				3156868E1C7D9E760081A509 /* PersonView.m in Sources */,
-				315686971C7E95FB0081A509 /* FatPersonView.m in Sources */,
-				315686911C7E92420081A509 /* PersonDirector.m in Sources */,
+				315686B21C7EA4AB0081A509 /* PersonFatBuilder.m in Sources */,
+				315686B31C7EA4AB0081A509 /* PersonThinBuilder.m in Sources */,
 				3156867A1C7D99A00081A509 /* AppDelegate.m in Sources */,
-				315686941C7E942F0081A509 /* ThinPersonView.m in Sources */,
 				315686771C7D99A00081A509 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
