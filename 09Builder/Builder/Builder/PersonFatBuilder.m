@@ -16,7 +16,7 @@
 }
 
 - (CGFloat)buildBodyWidthSale {
-    return 0.25;
+    return 0.35;
 }
 
 - (CGFloat)buildBodyHeighySale {

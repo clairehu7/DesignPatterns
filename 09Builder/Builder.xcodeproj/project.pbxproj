@@ -73,11 +73,11 @@
 		315686741C7D99A00081A509 /* Builder */ = {
 			isa = PBXGroup;
 			children = (
+				3156867B1C7D99A00081A509 /* ViewController.h */,
+				3156867C1C7D99A00081A509 /* ViewController.m */,
 				315686A41C7EA4AB0081A509 /* Builder */,
 				315686AB1C7EA4AB0081A509 /* Director */,
 				315686AE1C7EA4AB0081A509 /* Product */,
-				3156867B1C7D99A00081A509 /* ViewController.h */,
-				3156867C1C7D99A00081A509 /* ViewController.m */,
 				315686751C7D99A00081A509 /* Supporting Files */,
 			);
 			path = Builder;
