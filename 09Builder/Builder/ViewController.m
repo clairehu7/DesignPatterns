@@ -32,6 +32,7 @@
 #pragma mark - Btn Methods
 
 - (IBAction)testTUI:(UIButton *)sender {
+    
 //    创建具体建造者
 //    PersonBuilder *builder = [[PersonThinBuilder alloc]init];
     PersonBuilder *builder = [[PersonFatBuilder alloc]init];
