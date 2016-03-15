@@ -1,5 +1,5 @@
 //
-//  IFatory.h
+//  DataAccess.h
 //  AbstractFactory
 //
 //  Created by hukaiyin on 16/3/15.
@@ -10,9 +10,11 @@
 #import "IUser.h"
 #import "IDepartment.h"
 
-@interface IFactory : NSObject
 
-- (IUser *)createUser;
+@interface DataAccess : NSObject
+
+- (IUser *)creatUser;
 - (IDepartment *)creatDepartment;
+@property (nonatomic, strong, readonly) NSString *dbName;
 
 @end
