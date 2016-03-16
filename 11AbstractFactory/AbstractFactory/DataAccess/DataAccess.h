@@ -15,6 +15,7 @@
 
 - (IUser *)creatUser;
 - (IDepartment *)creatDepartment;
+
 @property (nonatomic, strong, readonly) NSString *dbName;
 
 @end

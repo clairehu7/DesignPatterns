@@ -23,6 +23,7 @@ static NSString *accessName = @"Access";
 - (instancetype)init {
     self = [super init];
     if (self) {
+        //大话设计模式中，说是改配置文件可以动态改变 dbName，在这里，可以将 dbName 存在服务端（或者友盟配置），通过获取的方式操作，不需重新编译上架，就可修改。
         self.dbName = sqlName;
     }
     return self;
@@ -30,39 +31,19 @@ static NSString *accessName = @"Access";
 
 - (IUser *)creatUser {
     IUser *iu;
-    NSArray *items = @[sqlName, accessName];
-    int item = [items indexOfObject:self.dbName];
-    switch (item) {
-        case 0:{
-            iu = [SqlServerUser new];
-            break;
-        }
-        case 1:{
-            iu = [AccessUser new];
-            break;
-        }
-        default:
-            break;
-    }
+    //动态获取类名
+    NSString *iuClassStr = [NSString stringWithFormat:@"%@%@",self.dbName,@"User"];
+    Class iuClass = NSClassFromString(iuClassStr);
+    iu = [iuClass new];
     return iu;
 }
 
 - (IDepartment *)creatDepartment {
     IDepartment *dep;
-    NSArray *items = @[sqlName, accessName];
-    int item = [items indexOfObject:self.dbName];
-    switch (item) {
-        case 0:{
-            dep = [SqlServerDepartment new];
-            break;
-        }
-        case 1:{
-            dep = [AccessDepartment new];
-            break;
-        }
-        default:
-            break;
-    }
+    //动态获取类名
+    NSString *depClassStr = [NSString stringWithFormat:@"%@%@",self.dbName,@"Department"];
+    Class depClass = NSClassFromString(depClassStr);
+    dep = [depClass new];
     return dep;
 
 }
