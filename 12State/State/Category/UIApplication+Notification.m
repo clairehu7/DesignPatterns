@@ -10,7 +10,12 @@
 
 @implementation UIApplication (Notification)
 
-- (void)localNotificationWithRegisterTime:(NSInteger)alertTime  alertBody:(NSString *)alertBody userInfo:(NSString *)userInfo repeatInterval:(NSCalendarUnit)repeatInterval key:(NSString *)key {
+- (void)localNotificationWithRegisterTime:(NSInteger)alertTime
+                                alertBody:(NSString *)alertBody
+                                 userInfo:(NSString *)userInfo
+                           repeatInterval:(NSCalendarUnit)repeatInterval
+                                      key:(NSString *)key {
+    //
     UILocalNotification *notification = [[UILocalNotification alloc] init];
     NSDate *fireDate = [NSDate dateWithTimeIntervalSinceNow:alertTime];
     notification.fireDate = fireDate;

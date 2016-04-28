@@ -51,4 +51,5 @@ typedef NS_ENUM (NSInteger,AppPrefsOpenURLType) {
  *  @return 是否成功跳转
  */
 - (BOOL)openPrefsURLWithType:(AppPrefsOpenURLType)type;
+
 @end

@@ -52,13 +52,13 @@
     NSString *notMess = [notification.userInfo objectForKey:@"key"];
 
     if ([[UIDevice currentDevice].systemVersion floatValue] > 8.f) {
-        UIAlertController *alertCtrl = [UIAlertController alertControllerWithTitle:@"啦啦啦" message:notMess preferredStyle:UIAlertControllerStyleAlert];
+        UIAlertController *alertCtrl = [UIAlertController alertControllerWithTitle:@"通知" message:notMess preferredStyle:UIAlertControllerStyleAlert];
         
         UIAlertAction *okAction = [UIAlertAction actionWithTitle:@"OK" style:UIAlertActionStyleDefault handler:^(UIAlertAction *action) { }];
         [alertCtrl addAction:okAction];
         [self.window.rootViewController presentViewController:alertCtrl animated:YES completion:nil];
     } else {
-        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"啦啦啦"
+        UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"通知"
                                                         message:notMess
                                                        delegate:nil
                                               cancelButtonTitle:@"OK"

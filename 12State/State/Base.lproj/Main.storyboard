@@ -1,46 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6JC-WL-swX">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15E65" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="6JC-WL-swX">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="kH4-yN-5TO">
-            <objects>
-                <viewController id="AbY-8T-IOe" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="32d-Wm-hcn"/>
-                        <viewControllerLayoutGuide type="bottom" id="wkT-Xd-rpD"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="8no-qk-z8Q">
-                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="m3O-rx-avP">
-                                <rect key="frame" x="240" y="286" width="121" height="29"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="121" id="1Pg-oA-iua"/>
-                                    <constraint firstAttribute="height" constant="28" id="RnN-fJ-XBu"/>
-                                </constraints>
-                                <segments>
-                                    <segment title="开启"/>
-                                    <segment title="关闭"/>
-                                </segments>
-                            </segmentedControl>
-                        </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstItem="m3O-rx-avP" firstAttribute="centerY" secondItem="8no-qk-z8Q" secondAttribute="centerY" id="KMB-A3-5KH"/>
-                            <constraint firstItem="m3O-rx-avP" firstAttribute="centerX" secondItem="8no-qk-z8Q" secondAttribute="centerX" id="nbx-Bf-1gO"/>
-                        </constraints>
-                    </view>
-                    <navigationItem key="navigationItem" id="G3I-WP-jjZ"/>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Kr8-Qg-Iwp" userLabel="First Responder" sceneMemberID="firstResponder"/>
-            </objects>
-            <point key="canvasLocation" x="1881" y="280"/>
-        </scene>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
@@ -53,121 +17,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bwI-xE-yFz" userLabel="Four Buttons">
-                                <rect key="frame" x="178" y="172" width="244" height="256"/>
-                                <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2kb-u4-ClW">
-                                        <rect key="frame" x="126" y="0.0" width="118" height="124"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="118" id="WQB-6Q-3nA"/>
-                                            <constraint firstAttribute="height" constant="124" id="Xhx-4S-V6Z"/>
-                                        </constraints>
-                                        <state key="normal" title="test2"/>
-                                        <connections>
-                                            <action selector="test2TUI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="deS-vQ-gsg"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kp2-Mv-x6u">
-                                        <rect key="frame" x="0.0" y="132" width="118" height="124"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="124" id="Nio-fq-Fxi"/>
-                                            <constraint firstAttribute="width" constant="118" id="s4Q-95-WP8"/>
-                                        </constraints>
-                                        <state key="normal" title="test3"/>
-                                        <connections>
-                                            <action selector="test3TUI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bFS-T2-pyd"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zvf-ro-p6y">
-                                        <rect key="frame" x="0.0" y="0.0" width="118" height="124"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="118" id="3Ux-RN-qVu"/>
-                                            <constraint firstAttribute="height" constant="124" id="CEa-oi-pwD"/>
-                                        </constraints>
-                                        <state key="normal" title="test1"/>
-                                        <connections>
-                                            <action selector="test1TUI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="1Gg-gU-XkB"/>
-                                        </connections>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Hn-Sa-PS1">
-                                        <rect key="frame" x="126" y="132" width="118" height="124"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="124" id="9ws-J9-wjA"/>
-                                            <constraint firstAttribute="width" constant="118" id="ODa-wb-utj"/>
-                                        </constraints>
-                                        <state key="normal" title="test4"/>
-                                        <connections>
-                                            <action selector="test4TUI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="pRj-qe-Z5w"/>
-                                            <segue destination="AbY-8T-IOe" kind="push" id="Xyh-J4-vb2"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yNa-DK-10s">
+                                <rect key="frame" x="239" y="254" width="123" height="91"/>
                                 <constraints>
-                                    <constraint firstItem="zvf-ro-p6y" firstAttribute="leading" secondItem="bwI-xE-yFz" secondAttribute="leading" id="2rt-g7-lF1"/>
-                                    <constraint firstAttribute="bottom" secondItem="Kp2-Mv-x6u" secondAttribute="bottom" id="33c-zK-sLA"/>
-                                    <constraint firstAttribute="trailing" secondItem="2kb-u4-ClW" secondAttribute="trailing" id="3D6-Jp-9bq"/>
-                                    <constraint firstAttribute="height" constant="256" id="BUM-tJ-Oki"/>
-                                    <constraint firstItem="2kb-u4-ClW" firstAttribute="top" secondItem="bwI-xE-yFz" secondAttribute="top" id="Ojs-cE-mbR"/>
-                                    <constraint firstAttribute="width" constant="244" id="TCh-Rh-dM9"/>
-                                    <constraint firstItem="Kp2-Mv-x6u" firstAttribute="leading" secondItem="bwI-xE-yFz" secondAttribute="leading" id="aOI-NR-xxe"/>
-                                    <constraint firstAttribute="bottom" secondItem="7Hn-Sa-PS1" secondAttribute="bottom" id="bNQ-qM-CDf"/>
-                                    <constraint firstAttribute="trailing" secondItem="7Hn-Sa-PS1" secondAttribute="trailing" id="dZw-nJ-Niu"/>
-                                    <constraint firstItem="zvf-ro-p6y" firstAttribute="top" secondItem="bwI-xE-yFz" secondAttribute="top" id="vuD-9B-HX8"/>
+                                    <constraint firstAttribute="width" constant="123" id="iL9-vg-Aif"/>
+                                    <constraint firstAttribute="height" constant="91" id="rB2-BA-cTB"/>
                                 </constraints>
-                            </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="A6N-uS-w6f">
-                                <rect key="frame" x="170" y="105" width="260" height="66"/>
-                                <subviews>
-                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="没有打开通知，将无法接受推送📱" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Cdl-Hj-ALl">
-                                        <rect key="frame" x="0.0" y="0.0" width="260" height="21"/>
-                                        <constraints>
-                                            <constraint firstAttribute="height" constant="21" id="3kh-Lg-TJm"/>
-                                            <constraint firstAttribute="width" constant="260" id="zBi-Zp-ntx"/>
-                                        </constraints>
-                                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                        <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
-                                        <nil key="highlightedColor"/>
-                                    </label>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zX0-3Y-dbD">
-                                        <rect key="frame" x="44" y="29" width="172" height="37"/>
-                                        <constraints>
-                                            <constraint firstAttribute="width" constant="172" id="cam-9s-xn6"/>
-                                            <constraint firstAttribute="height" constant="37" id="fqN-GU-BSH"/>
-                                        </constraints>
-                                        <state key="normal" title="去打开通知"/>
-                                        <connections>
-                                            <action selector="openNotificationTUI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bYn-rL-L3g"/>
-                                        </connections>
-                                    </button>
-                                </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstItem="zX0-3Y-dbD" firstAttribute="centerX" secondItem="A6N-uS-w6f" secondAttribute="centerX" id="2Q7-U6-60N"/>
-                                    <constraint firstAttribute="bottom" secondItem="zX0-3Y-dbD" secondAttribute="bottom" id="76x-3y-hFb"/>
-                                    <constraint firstAttribute="height" constant="66" id="GXq-BT-7Km"/>
-                                    <constraint firstItem="Cdl-Hj-ALl" firstAttribute="centerX" secondItem="A6N-uS-w6f" secondAttribute="centerX" id="ffW-Xg-IL4"/>
-                                    <constraint firstAttribute="width" constant="260" id="gIR-LN-8CN"/>
-                                    <constraint firstItem="Cdl-Hj-ALl" firstAttribute="top" secondItem="A6N-uS-w6f" secondAttribute="top" id="o5S-De-i1b"/>
-                                </constraints>
-                            </view>
+                                <state key="normal" title="老板来了"/>
+                                <connections>
+                                    <action selector="bossComingTUI:" destination="BYZ-38-t0r" eventType="touchUpInside" id="QJU-YM-ExY"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="bwI-xE-yFz" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="2cH-7q-XDe"/>
-                            <constraint firstItem="A6N-uS-w6f" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="4de-38-uhi"/>
-                            <constraint firstItem="bwI-xE-yFz" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Scq-Pq-UgE"/>
-                            <constraint firstItem="A6N-uS-w6f" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="41" id="ePq-tL-5ju"/>
+                            <constraint firstItem="yNa-DK-10s" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="I4Q-Fa-brl"/>
+                            <constraint firstItem="yNa-DK-10s" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="eMk-Ta-Gus"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="ghy-My-6Wy"/>
-                    <connections>
-                        <outlet property="notAllowNotificationView" destination="A6N-uS-w6f" id="jF6-0f-prd"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1124" y="267"/>
+            <point key="canvasLocation" x="1008" y="267"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="ou2-0K-IlP">
